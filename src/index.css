@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply text-slate-900;
+}
+
+/* helper utility classes to complement shadcn/ui */
+.card {
+  @apply bg-white rounded-xl border border-slate-200 shadow-sm;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center rounded-md border border-slate-300 px-3 py-1.5 text-sm font-medium bg-white text-slate-800 hover:bg-slate-50;
+}
+
+.btn-primary {
+  @apply bg-indigo-600 text-white border-transparent hover:bg-indigo-700;
+}
+
+.btn.small {
+  @apply text-xs px-2 py-1;
+}
